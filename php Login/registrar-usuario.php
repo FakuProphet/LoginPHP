@@ -10,7 +10,7 @@ $form_pass = $_POST['password'];
 
 $hash = password_hash($form_pass, PASSWORD_BCRYPT); 
 
-$conexion = new mysqli($host_db, $user_db, $pass_db, $db_name);
+$conexion = new mysqli($host_db, $user_db, $password_db, $database_name);
 
  
 
