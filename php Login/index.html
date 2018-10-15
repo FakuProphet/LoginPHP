@@ -11,16 +11,19 @@
 <body>
     <header><h1>Regitrarse en el sitio</h1></header>
 
-    <form action="registrar-usuario.php" method="POST"></form>
+    <form action="registrar-usuario.php" method="POST">
 
-    <h3>Crear cuenta de usuario</h3>
-    <label for="nombre">Nombre de usuario:</label><br>
-    <input type="text" maxlength="32" required>
-    <br><br>
-    <label for="password">Contraseña</label><br>
-    <input type="password" name="password" maxlength="8" required>
-    <br><br>
+        <h3>Crear cuenta de usuario</h3>
+        <label for="nombre">Nombre de usuario:</label><br>
+        <input type="text" maxlength="32" required>
+        <br><br>
+        <label for="password">Contraseña</label><br>
+        <input type="password" name="password" maxlength="8" required>
+        <br><br>
+        <input type="submit" name="reset" value="Registrase" >
+        <input type="reset" name="clear" value="Limpiar campos">
 
+    </form>
     <footer><a href="https://github.com/FakuProphet">ir a mi github.</a></footer>
 </body>
 </html>
