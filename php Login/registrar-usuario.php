@@ -2,7 +2,7 @@
 
 $host_db = "localhost";
 $user_db = "usuarios";
-$password_db = "";
+$password_db = "n0IHu9Ef0acPgpUx";
 $database_name = "usuarios";
 $table_name = "registros";
 
