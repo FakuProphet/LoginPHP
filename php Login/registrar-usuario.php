@@ -1,7 +1,7 @@
 <?php
 
 $host_db = "localhost";
-$user_db = "MyCon";
+$user_db = "Facundo";
 $password_db = "n0IHu9Ef0acPgpUx";
 $database_name = "usuarios";
 $table_name = "registros";
@@ -69,4 +69,3 @@ $buscarUsuario = "SELECT * FROM $tbl_name WHERE nombre_usuario = '$_POST[usernam
 
 ?>
 
-?>
