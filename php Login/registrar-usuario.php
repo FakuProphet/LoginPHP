@@ -37,7 +37,7 @@ $buscarUsuario = "SELECT * FROM $tbl_name WHERE nombre_usuario = '$_POST[usernam
 
  else{
 
- $query = "INSERT INTO Usuarios (nombre_usuario, password)
+ $query = "INSERT INTO registros (nombre_usuario, pass)
 
            VALUES ('$_POST[username]', '$hash')";
 
