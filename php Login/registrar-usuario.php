@@ -1,7 +1,7 @@
 <?php
 
 $host_db = "localhost";
-$user_db = "usuarios";
+$user_db = "MyCon";
 $password_db = "n0IHu9Ef0acPgpUx";
 $database_name = "usuarios";
 $table_name = "registros";
