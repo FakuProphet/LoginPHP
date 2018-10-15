@@ -1,4 +1,4 @@
 # LoginPHP
-Login básico de PHP con estilos de css.
+Login básico de PHP.
 
-Ejemplo muy simple de login en php, con una simple tabla en mysql que conste de dos campos. 
+Ejemplo muy simple de login en php, con una simple tabla en mysql, que consta de dos campos.  
