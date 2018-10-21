@@ -12,7 +12,7 @@ $database_name = "usuarios";
 $table_name = "registros";
 
  
-$conexion = new mysqli($host_db, $user_db, $pass_db, $database_name);
+$conexion = new mysqli($host_db, $user_db, $password_db, $database_name);
  
 
 if ($conexion->connect_error) {
@@ -25,7 +25,7 @@ if ($conexion->connect_error) {
 $username = $_POST['username'];
 $password = $_POST['password'];
   
-$sql = "SELECT * FROM $tbl_name WHERE nombre_usuario = '$username'";
+$sql = "SELECT * FROM $table_name WHERE nombre_usuario = '$username'";
 
  
 
