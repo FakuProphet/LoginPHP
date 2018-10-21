@@ -6,13 +6,13 @@ session_start();
 
  
 $host_db = "localhost";
-$user_db = "root";
-$pass_db = "";
-$db_name = "basedatosmaster";
-$tbl_name = "Usuarios";
+$user_db = "Facundo";
+$password_db = "n0IHu9Ef0acPgpUx";
+$database_name = "usuarios";
+$table_name = "registros";
 
  
-$conexion = new mysqli($host_db, $user_db, $pass_db, $db_name);
+$conexion = new mysqli($host_db, $user_db, $pass_db, $database_name);
  
 
 if ($conexion->connect_error) {
