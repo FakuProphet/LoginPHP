@@ -8,6 +8,7 @@ $table_name = "registros";
 
 $form_pass = $_POST['password'];
 
+/*encriptar la pass, asi otorgar seguridad al proceso */
 $hash = password_hash($form_pass, PASSWORD_BCRYPT); 
 
 $conexion = new mysqli($host_db, $user_db, $password_db, $database_name);

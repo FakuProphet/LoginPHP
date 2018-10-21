@@ -36,13 +36,17 @@ if ($result->num_rows > 0) {
  }
 
  
-
+/*
+La función password_verify();  descifra el hash 
+en la base de datos y realiza la comparación con el password ingresado 
+en el formulario y verifica que sean iguales a los registrados en la BBDD.  
+*/
  if (password_verify($password, $row['pass'])) { 
 
     $_SESSION['loggedin'] = true;
     $_SESSION['username'] = $username;
     $_SESSION['start'] = time();
-    $_SESSION['expire'] = $_SESSION['start'] + (5 * 60);
+    $_SESSION['expire'] = $_SESSION['start'] + (5 * 60);/* 5 minutos */
 
   echo "Bienvenido! " . $_SESSION['username'];
   echo "<br><br><a href=panel-control.php>Panel de Control</a>"; 
