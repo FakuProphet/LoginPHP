@@ -37,7 +37,7 @@ if ($result->num_rows > 0) {
 
  
 
- if (password_verify($password, $row['password'])) { 
+ if (password_verify($password, $row['pass'])) { 
 
     $_SESSION['loggedin'] = true;
     $_SESSION['username'] = $username;
