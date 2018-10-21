@@ -1,4 +1,5 @@
 # LoginPHP
 Login básico de PHP.
 
-Ejemplo muy simple de login en php, con una simple tabla en mysql, que consta de dos campos.  
+Ejemplo muy simple de login en php. 
+-crear una simple tabla en mysql, que conste de dos campos (nombre-usuario, pass).  
