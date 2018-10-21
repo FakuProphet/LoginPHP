@@ -32,10 +32,10 @@ $sql = "SELECT * FROM $table_name WHERE nombre_usuario = '$username'";
 $result = $conexion->query($sql);
 
 if ($result->num_rows > 0) {     
-
+    $row = $result->fetch_array(MYSQLI_ASSOC);
  }
 
- $row = $result->fetch_array(MYSQLI_ASSOC);
+ 
 
  if (password_verify($password, $row['password'])) { 
 
